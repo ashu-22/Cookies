@@ -1,0 +1,11 @@
+<%
+Response.Cookies("firstName") = "Alex"
+%>
+<5
+Response.Cookies("firstName") = "Alex"
+Response.Cookies("secondName").Expires = #May 10, 2012#
+%>
+<%
+fname = Request.Cookies("firstName")
+response.write("Firstname=" & fname)
+%>

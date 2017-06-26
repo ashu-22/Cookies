@@ -1,0 +1,8 @@
+//Set a Cookie
+$.cookie("example", "foo"); // Sample 1
+$.cookie("example", "foo", { expires: 7 }); // Sample 2
+$.cookie("example", "foo", { path: '/admin', expires: 7 }); // Sample 3
+//Get a Cookie
+alert( $.cookie("example") );
+//Delete the cookie
+$.removeCookie("example");

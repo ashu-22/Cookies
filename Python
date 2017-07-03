@@ -1,0 +1,5 @@
+import urllib
+import httplib2
+url = 'http://www.example.com/login'
+body = {'USERNAME', 'foo', 'PASSWORD', '1234'}
+headers = {'Content-type': 'application/x-www-form-urlencoded'}
